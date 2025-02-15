@@ -1,0 +1,16 @@
+Standup Report - February 15,2025
+
+# What I Did:
+
+✅ Created an ER diagram for a student task assessment system.
+✅ Completed tasks on DBeaver.
+
+# What I'm Planning:
+
+📌 Create another ER diagram on the topic Department in the Store as an SAP specialist.
+📌 Continue troubleshooting the GitHub upload issue.
+
+# Problems I Faced:
+
+❌ Faced issues uploading my work on GitHub from DBeaver.
+❌ Still trying to figure out the best way to upload database work to GitHub.
