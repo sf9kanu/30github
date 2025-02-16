@@ -1,1 +1,86 @@
-#####
+Department in the Store 
+Database Model
+
+Domain description
+
+The database is designed for a retail store specializing in sports apparel, footwear, and equipment such as bicycles, skis, and protective gear. The store operates different departments focusing on various product categories. The database will support inventory management, sales tracking, employee assignments, and supplier interactions. 
+
+Key functionalities include:
+
+For the customer (via personal account):
+
+•	Create, edit, and cancel an order.
+•	View product descriptions.
+•	Browse product photos.
+•	Access order history.
+•	Make payments and track payment status.
+
+For employees:
+
+•	Generate reports on open orders, completed orders, and orders processed by a specific employee.
+•	Update order statuses.
+•	Manage payment processing and refunds.
+
+For the administrator:
+
+•	Store information about products, including category, brand, and price.
+•	Track stock levels and restocking needs.
+•	Manage customer orders and sales transactions.
+•	Assign employees to specific departments.
+•	Handle supplier data for efficient product restocking.
+
+
+
+Product Entity
+•	product_id – unique identifier of the product.
+•	name – name of the product.
+•	category – product category.
+•	price – price of the product.
+•	stock_quantity – available stock quantity.
+•	department_id – identifier of the department the product belongs to.
+•	supplier_id – identifier of the supplier.
+Order Entity
+•	order_id – unique identifier of the order.
+•	customer_id – identifier of the customer who placed the order.
+•	order_date – date when the order was placed.
+•	total_amount – total amount of the order.
+OrderDetails Entity
+•	order_id – identifier of the order.
+•	product_id – identifier of the product included in the order.
+•	quantity – quantity of the product in the order.
+•	subtotal – subtotal price for this product (price × quantity).
+Customer Entity
+•	customer_id – unique identifier of the customer.
+•	name – customer's full name.
+•	email – customer's email address.
+•	phone – customer's contact phone number.
+Employee Entity
+•	employee_id – unique identifier of the employee.
+•	name – name of the employee.
+•	role – employee's job role.
+•	department_id – identifier of the department the employee belongs to.
+Department Entity
+•	department_id – unique identifier of the department.
+•	name – department name.
+•	location – department location.
+Supplier Entity
+•	supplier_id – unique identifier of the supplier.
+•	name – name of the supplier company.
+•	contact_email – supplier's contact email.
+•	phone – supplier's phone number.
+
+
+
+ER diagram
+
+https://drive.google.com/file/d/1-KX0_X3073F5JDH5QLfVFUUWFrLmAwMW/view?usp=sharing
+ 
+
+Relationships
+
+A department can have multiple products, but each product belongs to one department (One-to-Many).
+A supplier can provide multiple products, but each product is supplied by one supplier (One-to-Many).
+A department can have multiple employees, but each employee belongs to one department (One-to-Many).
+A customer can place multiple orders, but each order is linked to one customer (One-to-Many).
+An order can contain multiple products, and each product can be part of multiple orders (Many-to-Many, managed through OrderDetails).
+
