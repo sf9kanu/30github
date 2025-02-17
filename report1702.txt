@@ -1,0 +1,9 @@
+Installation Day
+
+Today, I made important progress in setting up and configuring the environment for working with SAP:
+
+✅ Familiarized myself with the installation guide.
+✅ Set up PostgreSQL, choosing version 14 (or an alternative if using a different OS).
+✅ Created a superuser password and left the default port 5432.
+✅ Installed DBeaver and configured the connection to the database.
+✅ Imported and ran SQL scripts to populate the database.
