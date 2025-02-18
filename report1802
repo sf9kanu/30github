@@ -1,0 +1,8 @@
+Today I learned about database data normalization — how removing redundancy helps improve data integrity and makes storing it more efficient. 
+I also learned about basic PostgreSQL operations: extracting data from tables, filtering, aggregating, and presenting it.
+
+I encountered some difficulties in working with transactions — it is not yet completely clear how their different types affect data integrity. 
+I also have questions about aggregate functions and groupings, especially in complex queries. 
+I need to better understand how to optimize SQL queries so that they work faster with large volumes of data. 
+
+Tomorrow I plan to delve deeper into working with transactions and practice writing complex queries.
