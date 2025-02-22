@@ -1,0 +1,32 @@
+Daily Report: What I Learned About Database Normalization and Denormalization  
+
+1. Database Normalization 
+I learned that normalization minimizes data redundancy and prevents update anomalies. 
+There are multiple normal forms (1NF, 2NF, 3NF, BCNF, and beyond), each addressing specific dependency issues. 
+The goal is to structure data efficiently to improve integrity and reduce duplication.  
+
+2. Database Denormalization  
+Denormalization improves read performance by introducing redundancy. 
+It is useful in systems where fast data retrieval is more important than strict normalization, such as analytical databases. 
+Denormalization is common in NoSQL but can also benefit relational databases under heavy workloads.  
+
+3. Normal Forms  
+- 1NF eliminates repeating groups  
+- 2NF removes partial dependencies  
+- 3NF eliminates transitive dependencies  
+- BCNF ensures every determinant is a candidate key  
+
+4. Codd's 12 Rules  
+Codd's 12 rules that define relational databases. Key takeaways:  
+- Data should be stored in tables  
+- All data must be accessible via SQL  
+- Integrity constraints and transaction management must be supported  
+
+5. Types of Dependencies in Databases
+- Functional dependency: A → B means B depends on A  
+- Transitive dependency: If A → B and B → C, then A → C (this is problematic in 3NF)  
+- Multivalued dependency: One attribute is related to multiple values of another (important in 4NF)  
+
+Conclusion: 
+I now have a better understanding of how normalization helps structure data and how denormalization can improve performance. 
+I also learned key principles of database dependencies and Codd's rules, which will help me design better database schemas.
