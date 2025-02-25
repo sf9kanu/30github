@@ -1,0 +1,12 @@
+1. Введение в ABAP
+	•	Что такое ABAP и зачем он нужен в SAP.
+	•	Среда разработки ABAP Workbench и ABAP Development Tools (ADT) в Eclipse.
+
+2. Структура программы на ABAP
+	•	Основные секции программы: REPORT, DATA, PROCESSING, OUTPUT.
+	•	Различие между Report Programs и Module Pool Programs.
+
+3. Переменные и типы данных
+	•	Объявление переменных с помощью DATA, CONSTANTS, PARAMETERS.
+	•	Основные типы данных: C (Character), N (Numeric Text), I (Integer), F (Floating Point), D (Date), T (Time).
+	•	Использование встроенных типов LIKE и TYPE.
