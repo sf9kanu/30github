@@ -15,8 +15,6 @@
 │── README.md  # Главное описание репозитория
 │── notes.md  # Общие заметки и полезные ссылки
 ```
-## - Я еще не научилась делиться кодом из DBeaver в Github,так что пока так окрасим мою таблицу
-## - **Report on GitHub Commit Issue**  
 
 I attempted to commit my project to GitHub but couldn’t find a proper way to do it. 
 Instead, I uploaded the files manually, which doesn’t count as actual commits. 
