@@ -1,0 +1,33 @@
+Основные концепции SQL:
+	1.	Типы команд:
+	•	DDL (Data Definition Language) – CREATE, ALTER, DROP, TRUNCATE (изменение структуры таблиц).
+	•	DML (Data Manipulation Language) – SELECT, INSERT, UPDATE, DELETE (работа с данными).
+	•	DCL (Data Control Language) – GRANT, REVOKE (управление правами доступа).
+	•	TCL (Transaction Control Language) – COMMIT, ROLLBACK, SAVEPOINT (управление транзакциями).
+	2.	SELECT-запросы:
+	•	SELECT column1, column2 FROM table WHERE condition;
+	•	ORDER BY column ASC|DESC; (сортировка).
+	•	LIMIT n OFFSET m; (ограничение выборки).
+	•	DISTINCT column; (уникальные значения).
+	3.	Фильтрация данных (WHERE, HAVING)
+	•	WHERE column = value; (фильтр по условию).
+	•	Операторы: AND, OR, BETWEEN, LIKE, IN, IS NULL.
+	•	HAVING применяется после GROUP BY.
+	4.	Агрегатные функции:
+	•	COUNT(), SUM(), AVG(), MIN(), MAX().
+	•	Используются с GROUP BY.
+	5.	Соединения таблиц (JOINs):
+	•	INNER JOIN – пересечение данных.
+	•	LEFT JOIN – все из левой таблицы + совпадающие из правой.
+	•	RIGHT JOIN – все из правой таблицы + совпадающие из левой.
+	•	FULL JOIN – объединяет обе таблицы.
+	•	SELF JOIN – соединение таблицы самой с собой.
+	6.	Подзапросы и EXISTS:
+	•	SELECT * FROM table WHERE column = (SELECT column FROM other_table WHERE condition);
+	•	EXISTS (SELECT 1 FROM table WHERE condition);
+	7.	Индексы и производительность:
+	•	CREATE INDEX idx_name ON table (column);
+	•	Ускоряют поиск, но замедляют INSERT/UPDATE/DELETE.
+	8.	Нормализация и транзакции:
+	•	Нормальные формы (1NF, 2NF, 3NF).
+	•	BEGIN TRANSACTION;, COMMIT;, ROLLBACK;.
