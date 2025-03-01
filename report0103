@@ -1,0 +1,20 @@
+SQL Editor:
+	•	Autocompletion support (Ctrl + Space).
+	•	Ability to work with multiple query tabs.
+	•	Syntax highlighting and query formatting.
+	•	Executing Queries:
+	•	Running single SQL statements or entire scripts (Ctrl + Enter).
+	•	Viewing query results in a tabular format.
+	•	Query performance analysis using the Execution Plan.
+	•	Working with Tables:
+	•	Creating, modifying, and deleting tables via GUI.
+	•	Editing table data directly (double-click on a cell).
+	•	Filtering and sorting data.
+
+Data Visualization
+	•	Generating charts and graphs based on SQL queries.
+	•	Working with ER diagrams (Entity-Relationship).
+	•	Using the built-in Data Grid for data analysis.
+
+Data Import and Export
+	•	Supports exporting data to CSV, Excel, JSON, SQL scripts, and other formats.
