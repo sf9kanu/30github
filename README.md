@@ -14,6 +14,7 @@
 │── /week-02  
 │── README.md  # Главное описание репозитория
 │── notes.md  # Общие заметки и полезные ссылки
+│── /week-03 #Папки с SQL кодом из Dbeaver
 ```
 
 I attempted to commit my project to GitHub but couldn’t find a proper way to do it. 
