@@ -1,0 +1,1 @@
+SELECT * FROM dramas WHERE rating >= 8 ORDER BY rating DESC;

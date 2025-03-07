@@ -1,0 +1,1 @@
+SELECT * FROM manhwas WHERE status = 'Читается';
