@@ -1,0 +1,23 @@
+ABAP: Key Characteristics and Terms
+FEATURES OF ABAP
+SAP GUI
+SAP transactions:
+  MIRO
+  ABAPHELP
+  SE38
+  SE80
+  SLG1
+  SE16N
+
+ABAP Statements
+
+ My first simple program in ABAP:
+PARAMETERS pa_num TYPE i .
+DATA gv_result TYPE i .
+MOVE pa_num TO gv_result .
+ADD l TO gv_result .
+WRITE 'Your input: ' .
+WRITE pa_num .
+NEW-LINE .
+WRITE 'Result:     ' .
+WRITE gv_result .
